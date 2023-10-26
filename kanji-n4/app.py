@@ -2,7 +2,7 @@ import scrapy
 
 
 class KanjiN5Spider(scrapy.Spider):
-    name = "kanji-n5"
+    name = "kanji-n4"
     start_urls = [
         "https://www.bahasajepangbersama.com/2015/10/daftar-huruf-kanji-untuk-jlpt-level-n4.html",
     ]

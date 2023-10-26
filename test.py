@@ -1,7 +1,7 @@
 import pandas as pd
 
 html = "https://www.bahasajepangbersama.com/2016/07/daftar-kanji-jlpt-level-n3.html"
-csv = "kanji-n3.csv"
+csv = "my_file.csv"
 
 # 1. Read all HTML tables from a given URL
 tables = pd.read_html(html)

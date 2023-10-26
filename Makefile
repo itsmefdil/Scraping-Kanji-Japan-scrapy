@@ -3,4 +3,8 @@ n5:
 n4:
 	scrapy runspider kanji-n4/app.py -o kanji-n4.csv
 n3:
-	scrapy runspider kanji-n3/app.py -o kanji-n3.csv
+	python kanji-n3/app.py
+n2:
+	scrapy runspider kanji-n2/app.py -o kanji-n2.csv
+n1:
+	python kanji-n1/app.py
